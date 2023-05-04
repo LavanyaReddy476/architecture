@@ -13,6 +13,8 @@ Libraries that we need for spring boot are : web - starter, testing library, act
 open api dependencies(for documenting), dev tools
 React - this can be implemented using minimun dependencies. Have added react-router and created app using npx create-react-app
 
+Further we need to add deployment related libraries like containerization, security libraries like JWT and auth2 and all. But is omitted now for time constraints.
+
 # What libraries can we omit?
 we can omit many libraries in this case. We need only web client, documentation and testing libraries in spring boot case. But rest of the libraries are added for ease of development, extendability and standardizing the implementation
 For react it needs only native react libraries as all the solutions could be solved by only using react and fetch.
